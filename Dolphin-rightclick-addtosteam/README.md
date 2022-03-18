@@ -11,7 +11,7 @@ This is a simple application that adds the path passed as a commandline argument
 
 ## Install (Steam deck):
 1. Launch into the desktop mode
-2. [Download the `add-to-steam.sh` script on the releases page](https://github.com/suchmememanyskill/steam-deckt-addons/releases). Save the file when prompted
+2. [Download the `add-to-steam.sh` script](https://github.com/suchmememanyskill/steam-deckt-addons/releases/download/1.0/add-to-steam.sh). Save the file when prompted
 3. Right click `add-to-steam.sh` in Dolphin and select Properties
 4. Navigate to the Permissions tab
 5. Check 'Is executable', then click 'OK'
