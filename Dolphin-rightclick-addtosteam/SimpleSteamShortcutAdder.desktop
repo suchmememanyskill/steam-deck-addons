@@ -7,5 +7,5 @@ X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 
 [Desktop Action addToSteam]
 Name=Add To Steam
-Exec=~/SimpleSteamShortcutAdder %f
+Exec=~/.bin/SimpleSteamShortcutAdder %f
 Icon=folder-add
