@@ -19,3 +19,9 @@ This is a simple application that adds the path passed as a commandline argument
 ## Uninstall
 1. Navigate to `~/.local/share/kservices5/ServiceMenus` and delete `SimpleSteamShortcutAdder.desktop`
 2. Navigate to `~/.bin` and delete `SimpleSteamShortcutAdder`
+
+## Changelog
+To download the newest version, re-install the program.
+
+- 1.1 @ [Duplicate](https://github.com/suchmememanyskill/Duplicate/commit/479116262895a1f98b4af18036fce88c9daf8d68): Add more sanity checks to make debugging easier
+- 1.0 @ [Duplicate](https://github.com/suchmememanyskill/Duplicate/commit/55fa634cca516209a1cbf6f11815401c99c6a44a): Initial release 
