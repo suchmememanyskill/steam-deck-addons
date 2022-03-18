@@ -6,6 +6,7 @@ This is a simple application that adds the path passed as a commandline argument
 
 ## Notes:
 - This currently does not support multiple users well. It only updates whatever the first user is.
+- You need to reboot steam to see the changes made to the shortcuts
 
 ## Install (Steam deck):
 1. Launch into the desktop mode
