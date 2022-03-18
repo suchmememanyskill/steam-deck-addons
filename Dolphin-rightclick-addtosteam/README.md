@@ -7,6 +7,8 @@ This is a simple application that adds the path passed as a commandline argument
 ## Notes:
 - This currently does not support multiple users well. It only updates whatever the first user is.
 
+[Test](https://github.com/suchmememanyskill/steam-deckt-addons/releases/download/1.0/add-to-steam.sh)
+
 ## Install (Steam deck):
 1. Launch into the desktop mode
 2. [Download the `add-to-steam.sh` script on the releases page](https://github.com/suchmememanyskill/steam-deckt-addons/releases). Save the file when prompted
