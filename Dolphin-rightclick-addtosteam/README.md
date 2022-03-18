@@ -17,4 +17,5 @@ This is a simple application that adds the path passed as a commandline argument
 6. Right click `add-to-steam.sh` in Dolphin and select 'Run in Konsole'
 
 ## Uninstall
-1. Navigate to `~/.local/share/kservices5/ServiceMenus/` and delete `SimpleSteamShortcutAdder.desktop`
+1. Navigate to `~/.local/share/kservices5/ServiceMenus` and delete `SimpleSteamShortcutAdder.desktop`
+2. Navigate to `~/.bin` and delete `SimpleSteamShortcutAdder`
