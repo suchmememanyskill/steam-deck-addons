@@ -1,0 +1,11 @@
+[Desktop Entry]
+Terminal=true
+Type=Service
+Actions=addToSteam
+MimeType=application/x-ms-dos-executable;application/x-ms-shortcut;application/x-wine-extension-msp;application/x-executable;
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+
+[Desktop Action addToSteam]
+Name=Add To Steam
+Exec=~/SimpleSteamShortcutAdder %f
+Icon=folder-add
