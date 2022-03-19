@@ -1,3 +1,5 @@
+[![Donations](https://img.shields.io/badge/Support%20on-Ko--Fi-red)](https://ko-fi.com/suchmememanyskill)
+
 # Add to steam
 
 This is a simple application that adds the path passed as a commandline argument to Steam. The .desktop file adds an entry to the right click menu in Dolphin of Windows or Linux executables to add them to Steam. [The source code for the application can be found here](https://github.com/suchmememanyskill/Duplicate/tree/main/SimpleSteamShortcutAdder). This should also work in other kde enviroments. I've only tested it on the Steam Deck and on Manjaro
