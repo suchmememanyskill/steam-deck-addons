@@ -30,7 +30,7 @@ jobs:
     - name: Linux build
       run: |
         cd Dolphin-rightclick-addtosteam/SimpleSteamShortcutAdder
-        dotnet publish -o Linux -r linux-x64 -p:PublishSingleFile=true
+        dotnet publish -o Linux -r linux-x64 -p:PublishSingleFile=true -p:PublishTrimmed=true
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
