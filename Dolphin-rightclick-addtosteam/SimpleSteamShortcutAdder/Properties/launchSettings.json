@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SimpleSteamShortcutAdder": {
+      "commandName": "Project",
+      "commandLineArgs": "a"
+    }
+  }
+}

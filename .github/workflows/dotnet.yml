@@ -1,0 +1,47 @@
+name: .NET
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: clone repo
+      uses: actions/checkout@v2
+        
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.x
+
+    - name: Restore dependencies
+      run: dotnet restore
+    
+    - name: Linux build
+      run: |
+        cd Dolphin-rightclick-addtosteam/SimpleSteamShortcutAdder
+        dotnet publish -o Linux -r linux-x64 -p:PublishSingleFile=true
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: Duplicate
+        path: Dolphin-rightclick-addtosteam/SimpleSteamShortcutAdder/Linux/SimpleSteamShortcutAdder
+        
+    - name: Deploy SimpleSteamShortcutAdder
+      uses: WebFreak001/deploy-nightly@v1.1.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # automatically provided by github actions
+      with:
+        upload_url: https://uploads.github.com/repos/suchmememanyskill/steam-deck-addons/releases/62187867/assets{?name,label} # find out this value by opening https://api.github.com/repos/<owner>/<repo>/releases in your browser and copy the full "upload_url" value including the {?name,label} part
+        release_id: 62187867 # same as above (id can just be taken out the upload_url, it's used to find old releases)
+        asset_path: ./Dolphin-rightclick-addtosteam/SimpleSteamShortcutAdder/Linux/SimpleSteamShortcutAdder # path to archive to upload
+        asset_name: SimpleSteamShortcutAdder # name to upload the release as, use $$ to insert date (YYYYMMDD) and 6 letter commit hash
+        asset_content_type: application/octet-stream # required by GitHub API
+        max_releases: 1 # optional, if there are more releases than this matching the asset_name, the oldest ones are going to be deleted
