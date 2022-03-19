@@ -5,7 +5,7 @@ This is a simple application that adds the path passed as a commandline argument
 ![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deckt-addons/main/Dolphin-rightclick-addtosteam/Example.png)
 
 ## Notes:
-- This currently does not support multiple users well. It only updates whatever the first user is.
+- Accesses the latest logged in user to add the new shortcut to. This hasn't been tested at all. Please open an issue if it's using the wrong userdata folder
 - You need to reboot steam to see the changes made to the shortcuts
 
 ## Install (Steam deck):
@@ -23,5 +23,6 @@ This is a simple application that adds the path passed as a commandline argument
 ## Changelog
 To download the newest version, re-install the program.
 
+- 1.2 @ [Duplicate](https://github.com/suchmememanyskill/Duplicate/commit/e79826f18177647827e300f57964f261e4c36c78): Hopefully add multiple user support
 - 1.1 @ [Duplicate](https://github.com/suchmememanyskill/Duplicate/commit/479116262895a1f98b4af18036fce88c9daf8d68): Add more sanity checks to make debugging easier
 - 1.0 @ [Duplicate](https://github.com/suchmememanyskill/Duplicate/commit/55fa634cca516209a1cbf6f11815401c99c6a44a): Initial release 
