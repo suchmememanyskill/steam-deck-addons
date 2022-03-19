@@ -6,7 +6,7 @@ mkdir -p ~/.local/share/kservices5/ServiceMenus
 mkdir -p ~/.bin
 
 echo Downloading files..
-curl https://github.com/suchmememanyskill/steam-deck-addons/releases/download/1.0/SimpleSteamShortcutAdder -o ~/.bin/SimpleSteamShortcutAdder
+curl https://github.com/suchmememanyskill/steam-deck-addons/releases/download/1.0/SimpleSteamShortcutAdder -L -o ~/.bin/SimpleSteamShortcutAdder
 curl https://raw.githubusercontent.com/suchmememanyskill/steam-deckt-addons/main/Dolphin-rightclick-addtosteam/SimpleSteamShortcutAdder.desktop -o ~/.local/share/kservices5/ServiceMenus/SimpleSteamShortcutAdder.desktop
 
 echo Setting permissions..
