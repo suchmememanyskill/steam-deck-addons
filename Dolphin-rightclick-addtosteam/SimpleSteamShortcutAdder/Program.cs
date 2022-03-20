@@ -24,7 +24,7 @@ namespace SimpleSteamShortcutAdder
             SteamManager manager = new SteamManager();
             if (!manager.InitialisePaths())
             {
-                Fatal("Could not initialise paths. Does a shortcuts.vdf file exist? Try to add a non-steam game to steam");
+                Fatal("Could not initialise paths.");
                 return;
             }
 
@@ -32,7 +32,7 @@ namespace SimpleSteamShortcutAdder
 
             if (!manager.Read())
             {
-                Fatal("Failed to read shortcuts.vdf");
+                Fatal("Failed to read shortcuts.vdf. Does a shortcuts.vdf file exist? Try to add a non-steam game to steam first");
                 return;
             }
 
