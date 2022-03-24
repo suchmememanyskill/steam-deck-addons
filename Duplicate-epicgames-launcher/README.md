@@ -12,6 +12,7 @@ Duplicate is an epic games launcher alternative with integration in steam. It's 
 - This app is broken in the game ui of the steam deck. Please use the app in desktop mode.
 - You need to reboot steam to see the changes made to the shortcuts. Switching back to game mode also restarts steam
 - Duplicate will automatically use proton, if wine is unavailable.
+- Duplicate will automatically pull the images from Epic Games' servers and add them to the Steam UI
 
 ## Install (Steam deck):
 1. Launch into the desktop mode
