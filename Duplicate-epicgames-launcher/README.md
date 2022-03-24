@@ -31,7 +31,7 @@ Duplicate is an epic games launcher alternative with integration in steam. It's 
 - You can change the location of future downloads by clicking on `Download location:`, clicking `Browse` and selecting a new folder
 - You can install a game by pressing on a `Not Installed` game and pressing `Install`
 - You can configure a game's launch options by pressing on an `Installed` game, and pressing `Info`. You can also configure to run with a specific version of proton. You can also uninstall a game via the `Info` menu
-- You can sync the current installed games by pressing `Update Steam Games`. You can remove all previously synced games by pressing 'Remove Steam Games'
+- You can sync the current installed games by pressing `Update Steam Games`. You can remove all previously synced games by pressing `Remove Steam Games`
 
 ## Uninstall
 1. Navigate to `~/.local/share/applications` and delete `Duplicate.desktop`
