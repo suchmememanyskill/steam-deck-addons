@@ -10,6 +10,7 @@ curl https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/
 
 echo Unzipping files..
 unzip -d ~/.bin ~/.bin/temp.zip 
+rm -f ~/.bin/temp.zip
 
 echo Removing old folder
 rm -rf ~/.bin/Duplicate
