@@ -6,7 +6,7 @@ Duplicate is an epic games launcher alternative with integration in steam. It's 
 
 ![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Duplicate-epicgames-launcher/Example.png)
 
-![Example2](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Duplicate-epicgames-launcher/Example2.jpg)
+![Example2](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Duplicate-epicgames-launcher/Example2.png)
 
 ## Notes:
 - This app is broken in the game ui of the steam deck. Please use the app in desktop mode.
