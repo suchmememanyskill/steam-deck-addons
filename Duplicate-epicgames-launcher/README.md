@@ -6,6 +6,8 @@ Duplicate is an epic games launcher alternative with integration in steam. It's 
 
 ![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Duplicate-epicgames-launcher/Example.png)
 
+![Example2](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Duplicate-epicgames-launcher/Example2.jpg)
+
 ## Notes:
 - This app is broken in the game ui of the steam deck. Please use the app in desktop mode.
 - You need to reboot steam to see the changes made to the shortcuts. Switching back to game mode also restarts steam
@@ -13,7 +15,7 @@ Duplicate is an epic games launcher alternative with integration in steam. It's 
 
 ## Install (Steam deck):
 1. Launch into the desktop mode
-2. [Download the `install-duplicate.sh` script](https://github.com/suchmememanyskill/steam-deckt-addons/releases/download/1.0/install-duplicate.sh)
+2. [Download the `install-duplicate.sh` script](https://github.com/suchmememanyskill/steam-deckt-addons/releases/download/1.0/install-duplicate.sh). Save the file when prompted
 3. Right click `install-duplicate.sh` in Dolphin and select Properties
 4. Navigate to the Permissions tab
 5. Check 'Is executable' then click 'OK'
