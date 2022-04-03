@@ -5,7 +5,7 @@ echo Making directories..
 mkdir -p ~/.bin
 
 echo Downloading files..
-curl https://github.com/suchmememanyskill/Duplicate/releases/download/1.6/Linux.zip -L -o ~/.bin/temp.zip
+curl https://github.com/suchmememanyskill/Duplicate/releases/download/1.6.1/Linux.zip -L -o ~/.bin/temp.zip
 curl https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Duplicate-epicgames-launcher/Duplicate.desktop -o ~/.local/share/applications/Duplicate.desktop
 
 echo Unzipping files..

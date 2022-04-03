@@ -38,4 +38,5 @@ Duplicate is an epic games launcher alternative with integration in steam. It's 
 2. Navigate to `~/.bin` and delete `Duplicate`
 
 ## Changelog
+- 1.6.1 @ [Duplicate](https://github.com/suchmememanyskill/Duplicate/releases/tag/1.6.1): Handle proton prefixes correctly
 - 1.6 @ [Duplicate](https://github.com/suchmememanyskill/Duplicate/releases/tag/1.6): Initial release for deck
