@@ -78,9 +78,8 @@ namespace SimpleSteamShortcutAdder
                 Console.WriteLine($"Adding {name}");
                 entry = ShortcutRoot!.AddEntry();
             }
-            
+
             entry.AppName = name;
-            entry.AppId = ShortcutEntry.GenerateSteamGridAppId(entry.AppName, "");
             entry.StartDir = Path.GetDirectoryName(path);
             entry.Exe = path;
             
@@ -90,6 +89,7 @@ namespace SimpleSteamShortcutAdder
             if (entry.StartDir.Contains(" "))
                 entry.StartDir = $"\"{entry.StartDir}\"";
 
+            entry.AppId = ShortcutEntry.GenerateSteamGridAppId(entry.AppName, entry.Exe);
             return true;
         }
     }
