@@ -1,5 +1,5 @@
-# Duplicate
-Lancher is n experimental project to launch ItchIo/Epic/Bottles Games in an organised fashion. Also can add games to deck UI [Source code is available here](https://github.com/suchmememanyskill/Launcher)
+# Launcher
+Lancher is an experimental project to launch ItchIo/Epic/Bottles Games in an organised fashion. Also can add games to deck UI. [Source code is available here](https://github.com/suchmememanyskill/Launcher)
 
 ![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Example1.png)
 
@@ -10,7 +10,9 @@ Lancher is n experimental project to launch ItchIo/Epic/Bottles Games in an orga
 - You need to reboot steam to see the changes made to the shortcuts. Switching back to game mode also restarts steam
 
 ## Install (Steam deck):
-TODO
+1. Launch into the desktop mode
+2. Open a `Konsole` window
+3. Paste the following command into it: `curl https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/install-launcher.sh | sh`
 
 ## First time setup (Epic Games)
 1. Launch into the desktop mode, if not already

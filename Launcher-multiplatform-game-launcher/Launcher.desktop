@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=Duplicate
+Name=Launcher
 Comment=A multi platform game launcher
 Exec=~/.bin/Launcher/Launcher
 Terminal=false
