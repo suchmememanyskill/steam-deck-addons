@@ -1,7 +1,7 @@
 # Duplicate
 Lancher is n experimental project to launch ItchIo/Epic/Bottles Games in an organised fashion. Also can add games to deck UI [Source code is available here](https://github.com/suchmememanyskill/Launcher)
 
-![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Example.png)
+![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Example1.png)
 
 ![Example2](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Example2.jpg)
 
