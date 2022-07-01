@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Duplicate
+Comment=A multi platform game launcher
+Exec=~/.bin/Launcher/Launcher
+Terminal=false
+Type=Application
+Categories=Utility;
+Icon=layer-new
