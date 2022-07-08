@@ -6,7 +6,8 @@ mkdir -p ~/.bin
 
 echo Downloading files..
 curl https://github.com/suchmememanyskill/Launcher/releases/download/1.1.0/Linux.zip -L -o ~/.bin/temp.zip
-curl https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Launcher.desktop > ~/.local/share/applications/Launcher.desktop
+rm ~/.local/share/applications/Launcher.desktop
+curl https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Launcher.desktop > ~/.local/share/applications/Alfae.desktop
 
 echo Unzipping files..
 unzip -d ~/.bin ~/.bin/temp.zip 
