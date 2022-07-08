@@ -4,7 +4,7 @@
 
 ![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deckt-addons/main/Dolphin-rightclick-addtosteam/Example.png)
 
-### [Launcher, a multi platform plugin based game launcher](https://github.com/suchmememanyskill/steam-deck-addons/tree/main/Launcher-multiplatform-game-launcher)
+### [Alfae (previously Launcher), a multi platform plugin based game launcher](https://github.com/suchmememanyskill/steam-deck-addons/tree/main/Launcher-multiplatform-game-launcher)
 
 ![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Example1.png)
 
