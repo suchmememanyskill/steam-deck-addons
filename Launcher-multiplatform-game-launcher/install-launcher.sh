@@ -5,7 +5,7 @@ echo Making directories..
 mkdir -p ~/.bin
 
 echo Downloading files..
-curl https://github.com/suchmememanyskill/Launcher/releases/download/1.0.0/Linux.zip -L -o ~/.bin/temp.zip
+curl https://github.com/suchmememanyskill/Launcher/releases/download/1.1.0/Linux.zip -L -o ~/.bin/temp.zip
 curl https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Launcher.desktop > ~/.local/share/applications/Launcher.desktop
 
 echo Unzipping files..
