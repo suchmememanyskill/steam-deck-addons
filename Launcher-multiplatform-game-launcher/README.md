@@ -1,4 +1,4 @@
-# Alfae
+# Alfae v1.1.0
 Alfae is an experimental project to launch GOG/Local/ItchIo/Epic/Bottles Games in an organised fashion. Also can add games to deck UI. [Source code is available here](https://github.com/suchmememanyskill/Alfae)
 
 ![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Example1.png)
