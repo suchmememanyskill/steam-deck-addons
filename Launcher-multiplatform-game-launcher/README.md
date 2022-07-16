@@ -1,4 +1,9 @@
-# Alfae v1.1.0
+# Alfae
+[![CI Build](https://github.com/suchmememanyskill/Alfae/actions/workflows/build.yml/badge.svg)](https://github.com/suchmememanyskill/Alfae/actions)
+[![Downloads](https://img.shields.io/github/downloads/suchmememanyskill/Alfae/total)](https://github.com/suchmememanyskill/Alfae/releases)
+[![Version](https://img.shields.io/github/v/release/suchmememanyskill/Alfae)](https://github.com/suchmememanyskill/Alfae/releases)
+[![Donations](https://img.shields.io/badge/Support%20on-Ko--Fi-red)](https://ko-fi.com/suchmememanyskill)
+
 Alfae is an experimental project to launch GOG/Local/ItchIo/Epic/Bottles Games in an organised fashion. Also can add games to deck UI. [Source code is available here](https://github.com/suchmememanyskill/Alfae)
 
 ![Example](https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Example1.png)

@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo Hello! This script will install Alfae v1.1
+echo Hello! This script will install the latest Alfae
 echo Making directories..
 mkdir -p ~/.bin
 
 echo Downloading files..
-curl https://github.com/suchmememanyskill/Launcher/releases/download/1.1.0/Linux.zip -L -o ~/.bin/temp.zip
+curl https://github.com/suchmememanyskill/Launcher/releases/latest/download/Linux.zip -L -o ~/.bin/temp.zip
 rm ~/.local/share/applications/Launcher.desktop
 curl https://raw.githubusercontent.com/suchmememanyskill/steam-deck-addons/main/Launcher-multiplatform-game-launcher/Launcher.desktop > ~/.local/share/applications/Alfae.desktop
 
