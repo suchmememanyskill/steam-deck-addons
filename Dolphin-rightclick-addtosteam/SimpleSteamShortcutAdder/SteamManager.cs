@@ -3,6 +3,7 @@ using System;
 using System.IO;
 using System.Linq;
 using VDFMapper;
+using VDFMapper.ShortcutConfig;
 using VDFMapper.ShortcutMap;
 using VDFMapper.VDF;
 
@@ -15,7 +16,6 @@ namespace SimpleSteamShortcutAdder
         private VDFMap? root;
         public ShortcutRoot? ShortcutRoot { get; private set; }
         public string VdfPath { get => vdfPath; private set => vdfPath = value; }
-
 
         public bool InitialisePaths()
         {
