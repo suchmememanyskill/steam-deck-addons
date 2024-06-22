@@ -24,5 +24,6 @@ echo Setting permissions..
 chmod a+x ~/.bin/Alfae/Alfae
 chmod a+x ~/.bin/Alfae/legendary
 chmod a+x ~/.bin/Alfae/gogdl
+chmod a+x ~/.local/share/applications/Alfae.desktop
 
 read -p "Done! Press enter to exit"
